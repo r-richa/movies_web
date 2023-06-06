@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img class="logo" src="logo.jpg" />
+        <a href="index.html"><h2>Movies</h2></a>
+      </div>
+      <a href="#new" class="sort new" id="sort">New</a>
+      <a href="#popular" class="sort popular" id="sort">Popular</a>
+      <form id="form">
+        <input
+          type="search"
+          id="search"
+          class="search"
+          placeholder="Search something"
+          style="
+            width: 80%;
+            height: 40px;
+            background-color: rgba(42, 42, 43, 0.457);
+            border-radius: 7px;
+            padding: 0.2rem;
+            color: aliceblue;
+            font-size: medium;
+            border: solid rgba(121, 163, 240, 0.826);
+          "
+        />
+        <button type="submit" class="search"><img src="search.jpg" /></button>
+      </form>
+    </header>
+    <!-- <div class="sidebar">
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="">ne</a></li>
+        <li><a href="">contact.......</a></li>
+        <li><a href="">blah</a></li>
+        <li><a href="">lalala</a></li>
+      </ul>
+    </div> -->
+    <section class="main" id="main3"></section>
+    <div class="container" >
+    <img src="heading.jpeg" class="headimg" >
+    </div>
+    <h1 id="popular">Popular Movies...</h1>
+    
+    <section id="main" class="main">
+      <div class="movie">
+        <img src="logo.jpg" alt="image" />
+        <div class="movie-info">
+          <h2>Movie Name</h2>
+          <span class="green">9.8</span>
+        </div>
+
+        <div class="overview">
+          <h3>overview</h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          inventore sequi nihil vel optio et atque! Libero sit placeat quasi?
+        </div>
+      </div>
+    </section>
+
+    <h1 id="new">New movies...</h1>
+
+    <section id="main2" class="main">
+      <div class="movie">
+        <img src="logo.jpg" alt="image" />
+        <div class="movie-info">
+          <h2>Movie Name</h2>
+          <span class="green">9.8</span>
+        </div>
+
+        <div class="overview">
+          <h3>overview</h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          inventore sequi nihil vel optio et atque! Libero sit placeat quasi?
+        </div>
+      </div>
+    </section>
+
+    <script src="movies.js"></script>
+  </body>
+</html>

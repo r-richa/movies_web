@@ -1,0 +1,158 @@
+
+
+body{
+    background-color: rgb(15, 14, 14);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(3, 3, 3, 0);
+    top: 0;
+    z-index: 999;
+    left: 0;
+    height: 50px;
+    padding-top: 20px;    
+
+}
+
+header a{
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color: rgb(189, 218, 243);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+
+.logo{
+    padding: 0.7rem;
+    display: flex;
+}
+.sort{
+    display: flex;
+    margin-right: 80px;
+    left: 0;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    color: rgb(176, 230, 242);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form{
+    padding: 0.7rem;
+    align-self: center;
+    width: 65%;
+}
+.search img{
+    width: 30px;
+    height: 30px;
+    
+}
+form button{
+    background-color: rgba(81, 101, 101, 0);
+    border: solid rgba(121, 163, 240, 0.826);
+    border-radius: 5px;
+    position: absolute;
+    
+}
+.logo img{
+    width: 7%;
+    height: 7%;
+    align-self: center;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    top: 90px;
+}
+.container img{
+    width: 100%;
+
+}
+
+.main{
+    font-size: medium;
+    color: aliceblue;
+    position: relative;
+    /* margin-left: 290px; */
+    top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h1{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-left: 50px;
+    width: 40%;
+    font-size: 50px;
+    color: rgb(169, 209, 245);
+    text-shadow: 3px ;
+    border-radius: 5px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.movie{
+    width: 250px;
+    margin: 1rem;
+    border-radius: 9px;
+    background-color: rgba(31, 11, 44, 0.562);
+    padding: 0.3rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0.3px 4px 3px #00000053;
+}
+.movie img{
+    width: 100%;
+}
+.movie-info{
+    display: flex;
+    justify-content: space-between;
+
+}
+.movie-info span{
+    align-self: center;
+    font-size: medium;
+    font-weight: bold;
+}
+.movie-info h2{
+    margin-top: 0;
+}
+.movie-info span.green{
+    color: rgb(38, 173, 7);
+}
+.movie-info span.orange{
+    color: rgb(215, 140, 28);
+}
+.movie-info span.red{
+    color: rgb(199, 68, 28);
+}
+
+.overview{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(3, 3, 53, 0.902);
+    color: rgb(188, 219, 236);
+    text-align: center;
+    padding: 1rem;
+    max-height: 100%;
+    width: 100%;
+    transform: translateY(101%);
+    transition: 0.3s ease-in;
+    
+}
+
+.movie:hover .overview{
+    transform: translateY(0);
+}
+
